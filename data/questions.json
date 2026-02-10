@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": "q001",
+            "figureId": "einstein",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "アインシュタインが提唱した有名な理論は？",
+            "options": [
+                "相対性理論",
+                "進化論",
+                "量子力学",
+                "熱力学"
+            ],
+            "correctAnswer": 0,
+            "explanation": "アインシュタインは特殊相対性理論（1905年）と一般相対性理論（1915年）を提唱しました。"
+        },
+        {
+            "id": "q002",
+            "figureId": "einstein",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "アインシュタインがノーベル物理学賞を受賞したのは何年？",
+            "options": [
+                "1905年",
+                "1915年",
+                "1921年",
+                "1933年"
+            ],
+            "correctAnswer": 2,
+            "explanation": "アインシュタインは1921年に光量子仮説の業績によりノーベル物理学賞を受賞しました。"
+        },
+        {
+            "id": "q003",
+            "figureId": "curie",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "マリー・キュリーが発見した元素は？",
+            "options": [
+                "ウラン",
+                "ラジウム",
+                "プルトニウム",
+                "ネオン"
+            ],
+            "correctAnswer": 1,
+            "explanation": "マリー・キュリーはラジウムとポロニウムを発見しました。"
+        },
+        {
+            "id": "q004",
+            "figureId": "curie",
+            "type": "multiple_choice",
+            "difficulty": "advanced",
+            "question": "マリー・キュリーがノーベル賞を受賞した回数は？",
+            "options": [
+                "1回",
+                "2回",
+                "3回",
+                "受賞していない"
+            ],
+            "correctAnswer": 1,
+            "explanation": "マリー・キュリーはノーベル物理学賞（1903年）とノーベル化学賞（1911年）の2回受賞しました。"
+        },
+        {
+            "id": "q005",
+            "figureId": "newton",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "ニュートンが発見した有名な法則は？",
+            "options": [
+                "万有引力の法則",
+                "相対性理論",
+                "進化論",
+                "熱力学第一法則"
+            ],
+            "correctAnswer": 0,
+            "explanation": "ニュートンは万有引力の法則を発見し、天体の運動を説明しました。"
+        },
+        {
+            "id": "q006",
+            "figureId": "darwin",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "ダーウィンが提唱した理論は？",
+            "options": [
+                "相対性理論",
+                "進化論",
+                "万有引力の法則",
+                "量子力学"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ダーウィンは自然選択による進化論を提唱しました。"
+        },
+        {
+            "id": "q007",
+            "figureId": "darwin",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ダーウィンが航海した船の名前は？",
+            "options": [
+                "サンタ・マリア号",
+                "ビーグル号",
+                "メイフラワー号",
+                "ヴィクトリア号"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ダーウィンはビーグル号で5年間の航海を行い、進化論の着想を得ました。"
+        },
+        {
+            "id": "q008",
+            "figureId": "galileo",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ガリレオが支持した学説は？",
+            "options": [
+                "天動説",
+                "地動説",
+                "進化論",
+                "相対性理論"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ガリレオは望遠鏡による観測から地動説を支持しました。"
+        },
+        {
+            "id": "q009",
+            "figureId": "davinci",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "レオナルド・ダ・ヴィンチの代表作は？",
+            "options": [
+                "モナ・リザ",
+                "ひまわり",
+                "ゲルニカ",
+                "叫び"
+            ],
+            "correctAnswer": 0,
+            "explanation": "『モナ・リザ』はレオナルド・ダ・ヴィンチの最も有名な作品です。"
+        },
+        {
+            "id": "q010",
+            "figureId": "vangogh",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "ゴッホの代表作は？",
+            "options": [
+                "モナ・リザ",
+                "ひまわり",
+                "最後の晩餐",
+                "真珠の耳飾りの少女"
+            ],
+            "correctAnswer": 1,
+            "explanation": "『ひまわり』はゴッホの代表作の一つです。"
+        },
+        {
+            "id": "q011",
+            "figureId": "picasso",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "ピカソが創始した芸術運動は？",
+            "options": [
+                "印象派",
+                "キュビスム",
+                "シュルレアリスム",
+                "ポップアート"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ピカソはキュビスムを創始し、絵画の概念を変革しました。"
+        },
+        {
+            "id": "q012",
+            "figureId": "beethoven",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "ベートーヴェンの有名な交響曲は？",
+            "options": [
+                "運命",
+                "四季",
+                "魔笛",
+                "カルメン"
+            ],
+            "correctAnswer": 0,
+            "explanation": "交響曲第5番『運命』はベートーヴェンの代表作です。"
+        },
+        {
+            "id": "q013",
+            "figureId": "mozart",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "モーツァルトが作曲したオペラは？",
+            "options": [
+                "カルメン",
+                "魔笛",
+                "椿姫",
+                "蝶々夫人"
+            ],
+            "correctAnswer": 1,
+            "explanation": "『魔笛』はモーツァルトの代表的なオペラ作品です。"
+        },
+        {
+            "id": "q014",
+            "figureId": "gandhi",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "ガンジーが指導した運動の特徴は？",
+            "options": [
+                "武力革命",
+                "非暴力・不服従",
+                "経済制裁",
+                "外交交渉"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ガンジーは非暴力・不服従の思想により独立運動を指導しました。"
+        },
+        {
+            "id": "q015",
+            "figureId": "lincoln",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "リンカーンが発布した宣言は？",
+            "options": [
+                "独立宣言",
+                "奴隷解放宣言",
+                "人権宣言",
+                "平和宣言"
+            ],
+            "correctAnswer": 1,
+            "explanation": "リンカーンは1863年に奴隷解放宣言を発布しました。"
+        },
+        {
+            "id": "q016",
+            "figureId": "mandela",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "マンデラが闘った制度は？",
+            "options": [
+                "奴隷制度",
+                "アパルトヘイト",
+                "封建制度",
+                "植民地制度"
+            ],
+            "correctAnswer": 1,
+            "explanation": "マンデラは南アフリカのアパルトヘイト（人種隔離政策）と闘いました。"
+        },
+        {
+            "id": "q017",
+            "figureId": "churchill",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "チャーチルが首相を務めた時期は？",
+            "options": [
+                "第一次世界大戦中",
+                "第二次世界大戦中",
+                "冷戦初期",
+                "ベトナム戦争中"
+            ],
+            "correctAnswer": 1,
+            "explanation": "チャーチルは第二次世界大戦中に英国首相を務めました。"
+        },
+        {
+            "id": "q018",
+            "figureId": "edison",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "エジソンが実用化したものは？",
+            "options": [
+                "電話",
+                "白熱電球",
+                "飛行機",
+                "自動車"
+            ],
+            "correctAnswer": 1,
+            "explanation": "エジソンは白熱電球を実用化し、電気の時代を切り開きました。"
+        },
+        {
+            "id": "q019",
+            "figureId": "bell",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ベルが発明したものは？",
+            "options": [
+                "電話",
+                "電球",
+                "蓄音機",
+                "ラジオ"
+            ],
+            "correctAnswer": 0,
+            "explanation": "アレクサンダー・グラハム・ベルは電話を発明しました。"
+        },
+        {
+            "id": "q020",
+            "figureId": "wright",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ライト兄弟が成功させたことは？",
+            "options": [
+                "蒸気機関車の発明",
+                "自動車の発明",
+                "動力飛行",
+                "潜水艦の発明"
+            ],
+            "correctAnswer": 2,
+            "explanation": "ライト兄弟は1903年に世界初の動力飛行に成功しました。"
+        },
+        {
+            "id": "q021",
+            "figureId": "nobel",
+            "type": "multiple_choice",
+            "difficulty": "advanced",
+            "question": "ノーベルが発明したものは？",
+            "options": [
+                "火薬",
+                "ダイナマイト",
+                "原子爆弾",
+                "TNT"
+            ],
+            "correctAnswer": 1,
+            "explanation": "アルフレッド・ノーベルはダイナマイトを発明しました。"
+        },
+        {
+            "id": "q022",
+            "figureId": "socrates",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ソクラテスの有名な言葉は？",
+            "options": [
+                "我思う、ゆえに我あり",
+                "無知の知",
+                "万物は流転する",
+                "人間は考える葦である"
+            ],
+            "correctAnswer": 1,
+            "explanation": "「無知の知」はソクラテスの有名な言葉です。"
+        },
+        {
+            "id": "q023",
+            "figureId": "confucius",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "孔子が創始した思想は？",
+            "options": [
+                "道教",
+                "儒教",
+                "仏教",
+                "法家"
+            ],
+            "correctAnswer": 1,
+            "explanation": "孔子は儒教を創始し、東アジアの思想に大きな影響を与えました。"
+        },
+        {
+            "id": "q024",
+            "figureId": "nietzsche",
+            "type": "multiple_choice",
+            "difficulty": "advanced",
+            "question": "ニーチェの有名な言葉は？",
+            "options": [
+                "我思う、ゆえに我あり",
+                "神は死んだ",
+                "無知の知",
+                "人間は社会的動物である"
+            ],
+            "correctAnswer": 1,
+            "explanation": "「神は死んだ」はニーチェの有名な宣言です。"
+        },
+        {
+            "id": "q025",
+            "figureId": "fukuzawa",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "福沢諭吉が創設した学校は？",
+            "options": [
+                "東京大学",
+                "早稲田大学",
+                "慶應義塾",
+                "同志社大学"
+            ],
+            "correctAnswer": 2,
+            "explanation": "福沢諭吉は慶應義塾を創設しました。"
+        },
+        {
+            "id": "q026",
+            "figureId": "noguchi",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "野口英世が研究した病気は？",
+            "options": [
+                "結核",
+                "黄熱病",
+                "コレラ",
+                "ペスト"
+            ],
+            "correctAnswer": 1,
+            "explanation": "野口英世は黄熱病の研究を行い、研究中に自らも感染して亡くなりました。"
+        },
+        {
+            "id": "q027",
+            "figureId": "soseki",
+            "type": "multiple_choice",
+            "difficulty": "beginner",
+            "question": "夏目漱石の代表作は？",
+            "options": [
+                "羅生門",
+                "吾輩は猫である",
+                "雪国",
+                "人間失格"
+            ],
+            "correctAnswer": 1,
+            "explanation": "『吾輩は猫である』は夏目漱石の代表作です。"
+        },
+        {
+            "id": "q028",
+            "figureId": "kitasato",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "北里柴三郎が開発した治療法は？",
+            "options": [
+                "ワクチン療法",
+                "血清療法",
+                "抗生物質療法",
+                "遺伝子治療"
+            ],
+            "correctAnswer": 1,
+            "explanation": "北里柴三郎は破傷風の血清療法を開発しました。"
+        },
+        {
+            "id": "q029",
+            "figureId": "higuchi",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "樋口一葉の代表作は？",
+            "options": [
+                "舞姫",
+                "たけくらべ",
+                "こころ",
+                "羅生門"
+            ],
+            "correctAnswer": 1,
+            "explanation": "『たけくらべ』は樋口一葉の代表作です。"
+        },
+        {
+            "id": "q030",
+            "figureId": "einstein",
+            "type": "multiple_choice",
+            "difficulty": "advanced",
+            "question": "アインシュタインの有名な方程式は？",
+            "options": [
+                "F=ma",
+                "E=mc²",
+                "PV=nRT",
+                "V=IR"
+            ],
+            "correctAnswer": 1,
+            "explanation": "E=mc²はアインシュタインが導出した質量とエネルギーの等価性を示す方程式です。"
+        },
+        {
+            "id": "q031",
+            "figureId": "davinci",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ダ・ヴィンチが描いた壁画は？",
+            "options": [
+                "最後の晩餐",
+                "天地創造",
+                "ゲルニカ",
+                "記憶の固執"
+            ],
+            "correctAnswer": 0,
+            "explanation": "『最後の晩餐』はダ・ヴィンチが描いた有名な壁画です。"
+        },
+        {
+            "id": "q032",
+            "figureId": "beethoven",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ベートーヴェンが作曲した交響曲第9番の別名は？",
+            "options": [
+                "運命",
+                "田園",
+                "合唱",
+                "英雄"
+            ],
+            "correctAnswer": 2,
+            "explanation": "交響曲第9番は『合唱』という別名で知られています。"
+        },
+        {
+            "id": "q033",
+            "figureId": "gandhi",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ガンジーが行った有名な抗議行動は？",
+            "options": [
+                "塩の行進",
+                "ボストン茶会事件",
+                "バスティーユ襲撃",
+                "五・四運動"
+            ],
+            "correctAnswer": 0,
+            "explanation": "塩の行進は1930年にガンジーが行った非暴力抗議行動です。"
+        },
+        {
+            "id": "q034",
+            "figureId": "lincoln",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "リンカーンの有名な演説は？",
+            "options": [
+                "就任演説",
+                "ゲティスバーグ演説",
+                "鉄のカーテン演説",
+                "私には夢がある演説"
+            ],
+            "correctAnswer": 1,
+            "explanation": "ゲティスバーグ演説は「人民の、人民による、人民のための政治」という有名な言葉を含みます。"
+        },
+        {
+            "id": "q035",
+            "figureId": "edison",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "エジソンが発明したものは？",
+            "options": [
+                "電話",
+                "蓄音機",
+                "ラジオ",
+                "テレビ"
+            ],
+            "correctAnswer": 1,
+            "explanation": "エジソンは蓄音機を発明し、音声の記録・再生を可能にしました。"
+        },
+        {
+            "id": "q036",
+            "figureId": "fukuzawa",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "福沢諭吉の著書は？",
+            "options": [
+                "学問のすゝめ",
+                "武士道",
+                "代表的日本人",
+                "茶の本"
+            ],
+            "correctAnswer": 0,
+            "explanation": "『学問のすゝめ』は福沢諭吉の代表的な著書です。"
+        },
+        {
+            "id": "q037",
+            "figureId": "picasso",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "ピカソの代表作は？",
+            "options": [
+                "モナ・リザ",
+                "ゲルニカ",
+                "叫び",
+                "真珠の耳飾りの少女"
+            ],
+            "correctAnswer": 1,
+            "explanation": "『ゲルニカ』はピカソが描いた反戦をテーマにした代表作です。"
+        },
+        {
+            "id": "q038",
+            "figureId": "confucius",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "孔子の教えが記された書物は？",
+            "options": [
+                "論語",
+                "老子",
+                "孟子",
+                "荘子"
+            ],
+            "correctAnswer": 0,
+            "explanation": "『論語』は孔子とその弟子たちの言行を記録した書物です。"
+        },
+        {
+            "id": "q039",
+            "figureId": "mandela",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "マンデラが投獄されていた期間は？",
+            "options": [
+                "10年",
+                "17年",
+                "27年",
+                "37年"
+            ],
+            "correctAnswer": 2,
+            "explanation": "マンデラは27年間投獄され、釈放後に南アフリカ初の黒人大統領となりました。"
+        },
+        {
+            "id": "q040",
+            "figureId": "soseki",
+            "type": "multiple_choice",
+            "difficulty": "intermediate",
+            "question": "夏目漱石の作品は？",
+            "options": [
+                "坊っちゃん",
+                "舞姫",
+                "羅生門",
+                "伊豆の踊子"
+            ],
+            "correctAnswer": 0,
+            "explanation": "『坊っちゃん』は夏目漱石の代表作の一つです。"
+        }
+    ]
+}

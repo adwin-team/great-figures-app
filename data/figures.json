@@ -1,0 +1,580 @@
+{
+    "figures": [
+        {
+            "id": "einstein",
+            "name": "アルベルト・アインシュタイン",
+            "nameEn": "Albert Einstein",
+            "birth": "1879-03-14",
+            "death": "1955-04-18",
+            "country": "ドイツ/アメリカ",
+            "category": "scientist",
+            "portrait": "images/portraits/einstein.png",
+            "achievements": [
+                "相対性理論の提唱",
+                "ノーベル物理学賞受賞（1921年）",
+                "光量子仮説の発表",
+                "E=mc²の方程式を導出"
+            ],
+            "quotes": [
+                "想像力は知識よりも重要である",
+                "人生は自転車に乗るようなものだ。バランスを保つには動き続けなければならない"
+            ],
+            "difficulty": "beginner",
+            "description": "20世紀最大の物理学者。相対性理論により時間と空間の概念を革新し、現代物理学の基礎を築いた。"
+        },
+        {
+            "id": "curie",
+            "name": "マリー・キュリー",
+            "nameEn": "Marie Curie",
+            "birth": "1867-11-07",
+            "death": "1934-07-04",
+            "country": "ポーランド/フランス",
+            "category": "scientist",
+            "portrait": "images/portraits/curie.png",
+            "achievements": [
+                "放射能の研究",
+                "ラジウムとポロニウムの発見",
+                "ノーベル物理学賞受賞（1903年）",
+                "ノーベル化学賞受賞（1911年）"
+            ],
+            "quotes": [
+                "人生において恐れるべきものは何もない。理解すべきものがあるだけだ",
+                "私は決して失敗しない。ただ、うまくいかない方法を見つけただけだ"
+            ],
+            "difficulty": "beginner",
+            "description": "史上初めてノーベル賞を2度受賞した女性科学者。放射能研究の先駆者として医学や科学の発展に貢献した。"
+        },
+        {
+            "id": "newton",
+            "name": "アイザック・ニュートン",
+            "nameEn": "Isaac Newton",
+            "birth": "1643-01-04",
+            "death": "1727-03-31",
+            "country": "イギリス",
+            "category": "scientist",
+            "portrait": "images/portraits/newton.png",
+            "achievements": [
+                "万有引力の法則の発見",
+                "運動の三法則の確立",
+                "微分積分学の創始",
+                "光学の研究"
+            ],
+            "quotes": [
+                "私が遠くを見渡せたのは、巨人の肩の上に立っていたからだ",
+                "天才とは1%のひらめきと99%の努力である"
+            ],
+            "difficulty": "beginner",
+            "description": "古典力学の基礎を築いた科学者。万有引力の法則により、天体の運動から地上の物体の運動まで統一的に説明した。"
+        },
+        {
+            "id": "darwin",
+            "name": "チャールズ・ダーウィン",
+            "nameEn": "Charles Darwin",
+            "birth": "1809-02-12",
+            "death": "1882-04-19",
+            "country": "イギリス",
+            "category": "scientist",
+            "portrait": "images/portraits/darwin.png",
+            "achievements": [
+                "進化論の提唱",
+                "自然選択説の確立",
+                "『種の起源』の出版",
+                "ビーグル号航海による調査"
+            ],
+            "quotes": [
+                "生き残るのは最も強い種ではなく、最も賢い種でもない。変化に最もよく適応した種である",
+                "無知は知識よりも確信を生む"
+            ],
+            "difficulty": "beginner",
+            "description": "進化論を確立した生物学者。自然選択による進化のメカニズムを解明し、生物学に革命をもたらした。"
+        },
+        {
+            "id": "galileo",
+            "name": "ガリレオ・ガリレイ",
+            "nameEn": "Galileo Galilei",
+            "birth": "1564-02-15",
+            "death": "1642-01-08",
+            "country": "イタリア",
+            "category": "scientist",
+            "portrait": "images/portraits/galileo.png",
+            "achievements": [
+                "望遠鏡による天体観測",
+                "木星の衛星の発見",
+                "地動説の支持",
+                "落体の法則の発見"
+            ],
+            "quotes": [
+                "それでも地球は動く",
+                "数学は神が宇宙を書いた言語である"
+            ],
+            "difficulty": "intermediate",
+            "description": "近代科学の父と呼ばれる天文学者・物理学者。望遠鏡を用いた観測により地動説を支持し、科学革命を推進した。"
+        },
+        {
+            "id": "davinci",
+            "name": "レオナルド・ダ・ヴィンチ",
+            "nameEn": "Leonardo da Vinci",
+            "birth": "1452-04-15",
+            "death": "1519-05-02",
+            "country": "イタリア",
+            "category": "artist",
+            "portrait": "images/portraits/davinci.png",
+            "achievements": [
+                "『モナ・リザ』の制作",
+                "『最後の晩餐』の制作",
+                "解剖学の研究",
+                "飛行機械の設計"
+            ],
+            "quotes": [
+                "シンプルさは究極の洗練である",
+                "学ぶことをやめた者は、老いる"
+            ],
+            "difficulty": "beginner",
+            "description": "ルネサンス期の万能の天才。画家、彫刻家、建築家、科学者として多岐にわたる分野で業績を残した。"
+        },
+        {
+            "id": "vangogh",
+            "name": "フィンセント・ファン・ゴッホ",
+            "nameEn": "Vincent van Gogh",
+            "birth": "1853-03-30",
+            "death": "1890-07-29",
+            "country": "オランダ",
+            "category": "artist",
+            "portrait": "images/portraits/vangogh.png",
+            "achievements": [
+                "『ひまわり』の制作",
+                "『星月夜』の制作",
+                "ポスト印象派の代表的画家",
+                "約2000点の作品を制作"
+            ],
+            "quotes": [
+                "偉業は一時的な衝動でなされるものではなく、小さなことの積み重ねによって成し遂げられる",
+                "私は夢を見る。そして私は夢を描く"
+            ],
+            "difficulty": "beginner",
+            "description": "ポスト印象派を代表する画家。独特の色彩と筆致で知られ、生前は評価されなかったが死後に高く評価された。"
+        },
+        {
+            "id": "picasso",
+            "name": "パブロ・ピカソ",
+            "nameEn": "Pablo Picasso",
+            "birth": "1881-10-25",
+            "death": "1973-04-08",
+            "country": "スペイン",
+            "category": "artist",
+            "portrait": "images/portraits/picasso.png",
+            "achievements": [
+                "キュビスムの創始",
+                "『ゲルニカ』の制作",
+                "『アヴィニョンの娘たち』の制作",
+                "生涯で約5万点の作品を制作"
+            ],
+            "quotes": [
+                "明日に延ばしてもいいのは、やり残して死んでもいいことだけだ",
+                "芸術は悲しみと苦しみから生まれる"
+            ],
+            "difficulty": "beginner",
+            "description": "20世紀を代表する芸術家。キュビスムを創始し、絵画の概念を根本から変革した。"
+        },
+        {
+            "id": "beethoven",
+            "name": "ルートヴィヒ・ヴァン・ベートーヴェン",
+            "nameEn": "Ludwig van Beethoven",
+            "birth": "1770-12-17",
+            "death": "1827-03-26",
+            "country": "ドイツ",
+            "category": "artist",
+            "portrait": "images/portraits/beethoven.png",
+            "achievements": [
+                "交響曲第9番『合唱』の作曲",
+                "『運命』の作曲",
+                "『月光』の作曲",
+                "聴覚を失いながらも作曲を続けた"
+            ],
+            "quotes": [
+                "音楽は、精神と感覚の世界を結ぶ仲介者である",
+                "苦悩を突き抜けて歓喜に至れ"
+            ],
+            "difficulty": "beginner",
+            "description": "古典派からロマン派への橋渡しをした作曲家。聴覚を失いながらも傑作を生み出し続けた不屈の精神で知られる。"
+        },
+        {
+            "id": "mozart",
+            "name": "ヴォルフガング・アマデウス・モーツァルト",
+            "nameEn": "Wolfgang Amadeus Mozart",
+            "birth": "1756-01-27",
+            "death": "1791-12-05",
+            "country": "オーストリア",
+            "category": "artist",
+            "portrait": "images/portraits/mozart.png",
+            "achievements": [
+                "『魔笛』の作曲",
+                "『フィガロの結婚』の作曲",
+                "『レクイエム』の作曲",
+                "600曲以上の作品を残す"
+            ],
+            "quotes": [
+                "音楽は沈黙から生まれる",
+                "私の音楽は誰にでも理解できるものでなければならない"
+            ],
+            "difficulty": "intermediate",
+            "description": "古典派音楽の完成者。神童として知られ、35年の短い生涯で600曲以上の傑作を残した。"
+        },
+        {
+            "id": "gandhi",
+            "name": "マハトマ・ガンジー",
+            "nameEn": "Mahatma Gandhi",
+            "birth": "1869-10-02",
+            "death": "1948-01-30",
+            "country": "インド",
+            "category": "politician",
+            "portrait": "images/portraits/gandhi.png",
+            "achievements": [
+                "非暴力・不服従運動の指導",
+                "インド独立運動の指導者",
+                "塩の行進の実施",
+                "宗教間の融和を推進"
+            ],
+            "quotes": [
+                "明日死ぬかのように生きよ。永遠に生きるかのように学べ",
+                "世界に変化を望むなら、自らがその変化となれ"
+            ],
+            "difficulty": "beginner",
+            "description": "インド独立の父。非暴力・不服従の思想により、武力によらない社会変革の可能性を示した。"
+        },
+        {
+            "id": "lincoln",
+            "name": "エイブラハム・リンカーン",
+            "nameEn": "Abraham Lincoln",
+            "birth": "1809-02-12",
+            "death": "1865-04-15",
+            "country": "アメリカ",
+            "category": "politician",
+            "portrait": "images/portraits/lincoln.png",
+            "achievements": [
+                "奴隷解放宣言の発布",
+                "南北戦争の指導",
+                "アメリカ合衆国第16代大統領",
+                "ゲティスバーグ演説"
+            ],
+            "quotes": [
+                "人民の、人民による、人民のための政治",
+                "40歳を過ぎたら、自分の顔に責任を持て"
+            ],
+            "difficulty": "beginner",
+            "description": "アメリカ合衆国第16代大統領。奴隷制度を廃止し、国家の統一を守り抜いた偉大な指導者。"
+        },
+        {
+            "id": "mandela",
+            "name": "ネルソン・マンデラ",
+            "nameEn": "Nelson Mandela",
+            "birth": "1918-07-18",
+            "death": "2013-12-05",
+            "country": "南アフリカ",
+            "category": "politician",
+            "portrait": "images/portraits/mandela.png",
+            "achievements": [
+                "アパルトヘイト撤廃運動の指導",
+                "27年間の投獄を経て大統領に",
+                "ノーベル平和賞受賞（1993年）",
+                "人種和解の推進"
+            ],
+            "quotes": [
+                "生きるうえで最も偉大な栄光は、決して転ばないことにあるのではない。転ぶたびに起き上がり続けることにある",
+                "教育は世界を変える最も強力な武器である"
+            ],
+            "difficulty": "beginner",
+            "description": "南アフリカ初の黒人大統領。アパルトヘイトと闘い、人種和解を実現した20世紀の偉大な指導者。"
+        },
+        {
+            "id": "churchill",
+            "name": "ウィンストン・チャーチル",
+            "nameEn": "Winston Churchill",
+            "birth": "1874-11-30",
+            "death": "1965-01-24",
+            "country": "イギリス",
+            "category": "politician",
+            "portrait": "images/portraits/churchill.png",
+            "achievements": [
+                "第二次世界大戦中の英国首相",
+                "ノーベル文学賞受賞（1953年）",
+                "「鉄のカーテン」演説",
+                "戦時中の国民の士気を鼓舞"
+            ],
+            "quotes": [
+                "成功とは、失敗を重ねても熱意を失わないことである",
+                "決して屈服するな。決して、決して、決して"
+            ],
+            "difficulty": "intermediate",
+            "description": "第二次世界大戦を勝利に導いた英国首相。卓越した演説で国民を鼓舞し、自由世界を守り抜いた。"
+        },
+        {
+            "id": "edison",
+            "name": "トーマス・エジソン",
+            "nameEn": "Thomas Edison",
+            "birth": "1847-02-11",
+            "death": "1931-10-18",
+            "country": "アメリカ",
+            "category": "inventor",
+            "portrait": "images/portraits/edison.png",
+            "achievements": [
+                "白熱電球の実用化",
+                "蓄音機の発明",
+                "映画撮影機の発明",
+                "1000以上の特許を取得"
+            ],
+            "quotes": [
+                "天才とは1%のひらめきと99%の努力である",
+                "私は失敗したことがない。ただ、1万通りのうまくいかない方法を見つけただけだ"
+            ],
+            "difficulty": "beginner",
+            "description": "発明王として知られる発明家。電気の実用化により現代社会の基礎を築いた。"
+        },
+        {
+            "id": "bell",
+            "name": "アレクサンダー・グラハム・ベル",
+            "nameEn": "Alexander Graham Bell",
+            "birth": "1847-03-03",
+            "death": "1922-08-02",
+            "country": "スコットランド/アメリカ",
+            "category": "inventor",
+            "portrait": "images/portraits/bell.png",
+            "achievements": [
+                "電話の発明",
+                "聴覚障害者教育への貢献",
+                "航空機の研究",
+                "ベル電話会社の創設"
+            ],
+            "quotes": [
+                "準備こそが成功の鍵である",
+                "一つの扉が閉まれば、別の扉が開く"
+            ],
+            "difficulty": "intermediate",
+            "description": "電話を発明し、遠距離通信の時代を切り開いた発明家。聴覚障害者教育にも尽力した。"
+        },
+        {
+            "id": "wright",
+            "name": "ライト兄弟",
+            "nameEn": "Wright Brothers",
+            "birth": "1867/1871",
+            "death": "1912/1948",
+            "country": "アメリカ",
+            "category": "inventor",
+            "portrait": "images/portraits/wright.png",
+            "achievements": [
+                "世界初の動力飛行に成功",
+                "飛行機の実用化",
+                "航空力学の研究",
+                "飛行制御システムの開発"
+            ],
+            "quotes": [
+                "不可能だと思われていることに挑戦することが、人類の進歩である",
+                "夢を実現するには、まず夢を見なければならない"
+            ],
+            "difficulty": "intermediate",
+            "description": "人類初の動力飛行を成功させた兄弟。航空時代の幕開けを告げた偉大な発明家。"
+        },
+        {
+            "id": "nobel",
+            "name": "アルフレッド・ノーベル",
+            "nameEn": "Alfred Nobel",
+            "birth": "1833-10-21",
+            "death": "1896-12-10",
+            "country": "スウェーデン",
+            "category": "inventor",
+            "portrait": "images/portraits/nobel.png",
+            "achievements": [
+                "ダイナマイトの発明",
+                "ノーベル賞の創設",
+                "350以上の特許を取得",
+                "国際平和への貢献"
+            ],
+            "quotes": [
+                "満足は努力の中にあって、結果にあるものではない",
+                "私の発明が戦争を終わらせることを願う"
+            ],
+            "difficulty": "advanced",
+            "description": "ダイナマイトを発明した化学者。遺産でノーベル賞を創設し、人類の進歩に貢献した。"
+        },
+        {
+            "id": "socrates",
+            "name": "ソクラテス",
+            "nameEn": "Socrates",
+            "birth": "紀元前469年頃",
+            "death": "紀元前399年",
+            "country": "古代ギリシャ",
+            "category": "philosopher",
+            "portrait": "images/portraits/socrates.png",
+            "achievements": [
+                "問答法（ソクラテス式問答法）の確立",
+                "西洋哲学の基礎を築く",
+                "「無知の知」の提唱",
+                "倫理学の創始"
+            ],
+            "quotes": [
+                "無知の知",
+                "よく生きることが最も大切である",
+                "吟味されない人生は生きる価値がない"
+            ],
+            "difficulty": "intermediate",
+            "description": "古代ギリシャの哲学者。問答法により真理を探求し、西洋哲学の基礎を築いた。"
+        },
+        {
+            "id": "confucius",
+            "name": "孔子",
+            "nameEn": "Confucius",
+            "birth": "紀元前551年",
+            "death": "紀元前479年",
+            "country": "中国",
+            "category": "philosopher",
+            "portrait": "images/portraits/confucius.png",
+            "achievements": [
+                "儒教の創始",
+                "『論語』の教え",
+                "仁・義・礼の思想",
+                "東アジア文化圏への影響"
+            ],
+            "quotes": [
+                "学びて思わざれば則ち罔し、思いて学ばざれば則ち殆し",
+                "己の欲せざる所は人に施すこと勿れ",
+                "過ちて改めざる、これを過ちという"
+            ],
+            "difficulty": "beginner",
+            "description": "儒教の創始者。仁・義・礼の思想により、東アジアの倫理観と社会秩序に多大な影響を与えた。"
+        },
+        {
+            "id": "nietzsche",
+            "name": "フリードリヒ・ニーチェ",
+            "nameEn": "Friedrich Nietzsche",
+            "birth": "1844-10-15",
+            "death": "1900-08-25",
+            "country": "ドイツ",
+            "category": "philosopher",
+            "portrait": "images/portraits/nietzsche.png",
+            "achievements": [
+                "「神は死んだ」の宣言",
+                "超人思想の提唱",
+                "『ツァラトゥストラはかく語りき』の執筆",
+                "ニヒリズムの分析"
+            ],
+            "quotes": [
+                "神は死んだ",
+                "深淵を覗く時、深淵もまたこちらを覗いている",
+                "あなたを殺さないものは、あなたをより強くする"
+            ],
+            "difficulty": "advanced",
+            "description": "実存主義の先駆者。既存の価値観を批判し、新たな人間像としての超人を提唱した。"
+        },
+        {
+            "id": "fukuzawa",
+            "name": "福沢諭吉",
+            "nameEn": "Fukuzawa Yukichi",
+            "birth": "1835-01-10",
+            "death": "1901-02-03",
+            "country": "日本",
+            "category": "philosopher",
+            "portrait": "images/portraits/fukuzawa.png",
+            "achievements": [
+                "慶應義塾の創設",
+                "『学問のすゝめ』の執筆",
+                "西洋文明の紹介",
+                "近代日本の啓蒙思想家"
+            ],
+            "quotes": [
+                "天は人の上に人を造らず人の下に人を造らず",
+                "一身独立して一国独立す",
+                "進まざる者は必ず退き、退かざる者は必ず進む"
+            ],
+            "difficulty": "beginner",
+            "description": "明治時代の啓蒙思想家。西洋の学問を紹介し、日本の近代化に大きく貢献した。"
+        },
+        {
+            "id": "noguchi",
+            "name": "野口英世",
+            "nameEn": "Noguchi Hideyo",
+            "birth": "1876-11-09",
+            "death": "1928-05-21",
+            "country": "日本",
+            "category": "scientist",
+            "portrait": "images/portraits/noguchi.png",
+            "achievements": [
+                "黄熱病の研究",
+                "梅毒の研究",
+                "ロックフェラー医学研究所での研究",
+                "細菌学の発展に貢献"
+            ],
+            "quotes": [
+                "忍耐は苦い。しかし、その実は甘い",
+                "努力だ。勉強だ。それが天才だ"
+            ],
+            "difficulty": "beginner",
+            "description": "世界的な細菌学者。黄熱病の研究中に自らも感染し、研究に殉じた日本の誇る科学者。"
+        },
+        {
+            "id": "soseki",
+            "name": "夏目漱石",
+            "nameEn": "Natsume Soseki",
+            "birth": "1867-02-09",
+            "death": "1916-12-09",
+            "country": "日本",
+            "category": "artist",
+            "portrait": "images/portraits/soseki.png",
+            "achievements": [
+                "『吾輩は猫である』の執筆",
+                "『坊っちゃん』の執筆",
+                "『こころ』の執筆",
+                "近代日本文学の確立"
+            ],
+            "quotes": [
+                "智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ",
+                "ただ自分だけの個性を発揮して生きていけばいい"
+            ],
+            "difficulty": "beginner",
+            "description": "日本近代文学の巨匠。人間の内面を深く描き、今なお多くの読者に愛される作品を残した。"
+        },
+        {
+            "id": "kitasato",
+            "name": "北里柴三郎",
+            "nameEn": "Kitasato Shibasaburo",
+            "birth": "1853-01-29",
+            "death": "1931-06-13",
+            "country": "日本",
+            "category": "scientist",
+            "portrait": "images/portraits/kitasato.png",
+            "achievements": [
+                "破傷風菌の純粋培養に成功",
+                "血清療法の開発",
+                "ペスト菌の発見",
+                "北里研究所の創設"
+            ],
+            "quotes": [
+                "医学は人のためにある",
+                "学問に王道なし"
+            ],
+            "difficulty": "intermediate",
+            "description": "日本の細菌学の父。破傷風の血清療法を開発し、感染症医学の発展に大きく貢献した。"
+        },
+        {
+            "id": "higuchi",
+            "name": "樋口一葉",
+            "nameEn": "Higuchi Ichiyo",
+            "birth": "1872-05-02",
+            "death": "1896-11-23",
+            "country": "日本",
+            "category": "artist",
+            "portrait": "images/portraits/higuchi.png",
+            "achievements": [
+                "『たけくらべ』の執筆",
+                "『にごりえ』の執筆",
+                "明治時代の女性作家",
+                "24歳の若さで多くの名作を残す"
+            ],
+            "quotes": [
+                "人の心は移ろいやすいもの",
+                "女性の自立と生き方を描く"
+            ],
+            "difficulty": "intermediate",
+            "description": "明治時代の女性作家。貧困と闘いながら、女性の視点から人間の心情を繊細に描いた。"
+        }
+    ]
+}

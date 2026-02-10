@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>偉人伝学習アプリ - Great Figures Learning</title>
+    <meta name="description" content="歴史上の偉人について楽しく学べるゲーミフィケーション学習アプリ">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Home Screen -->
+    <section id="home-screen" class="screen active">
+        <div class="container">
+            <!-- Hero Section -->
+            <header class="hero">
+                <h1 class="hero-title">偉人伝学習</h1>
+                <p class="hero-subtitle">歴史を彩った偉人たちの物語を学ぼう</p>
+            </header>
+
+            <!-- User Status Card -->
+            <div class="user-status-card">
+                <div class="status-item">
+                    <span class="status-label">レベル</span>
+                    <span class="status-value" id="user-level">1</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">ポイント</span>
+                    <span class="status-value" id="user-points">0</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">連続日数</span>
+                    <span class="status-value" id="user-streak">0</span>
+                </div>
+            </div>
+
+            <!-- Experience Progress Bar -->
+            <div class="exp-progress">
+                <div class="exp-bar">
+                    <div class="exp-fill" id="exp-fill" style="width: 0%"></div>
+                </div>
+                <p class="exp-text"><span id="current-exp">0</span> / <span id="required-exp">100</span> EXP</p>
+            </div>
+
+            <!-- Daily Challenge Banner -->
+            <div class="daily-challenge-banner" id="daily-challenge-banner">
+                <div class="banner-icon">🌟</div>
+                <div class="banner-content">
+                    <h3>デイリーチャレンジ</h3>
+                    <p>今日の特別問題に挑戦しよう！</p>
+                </div>
+                <button class="btn-challenge" id="btn-daily-challenge">挑戦</button>
+            </div>
+
+            <!-- Main Menu -->
+            <nav class="main-menu">
+                <button class="menu-btn btn-primary" id="btn-start-quiz">
+                    <span class="btn-icon">📝</span>
+                    <span class="btn-text">クイズ開始</span>
+                </button>
+                <button class="menu-btn btn-secondary" id="btn-encyclopedia">
+                    <span class="btn-icon">📚</span>
+                    <span class="btn-text">偉人図鑑</span>
+                </button>
+                <button class="menu-btn btn-secondary" id="btn-statistics">
+                    <span class="btn-icon">📊</span>
+                    <span class="btn-text">統計</span>
+                </button>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Quiz Screen -->
+    <section id="quiz-screen" class="screen">
+        <div class="container">
+            <!-- Quiz Header -->
+            <div class="quiz-header">
+                <button class="btn-back" id="btn-back-from-quiz">← 戻る</button>
+                <div class="quiz-score">スコア: <span id="quiz-score">0</span></div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="quiz-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="quiz-progress-fill" style="width: 0%"></div>
+                </div>
+                <p class="progress-text">問題 <span id="current-question">1</span> / <span id="total-questions">10</span></p>
+            </div>
+
+            <!-- Question Card -->
+            <div class="question-card">
+                <h2 class="question-text" id="question-text">問題文がここに表示されます</h2>
+                <div class="options-container" id="options-container">
+                    <!-- Options will be dynamically inserted -->
+                </div>
+            </div>
+
+            <!-- Feedback Section -->
+            <div class="feedback-section" id="feedback-section" style="display: none;">
+                <div class="feedback-content">
+                    <p class="feedback-result" id="feedback-result"></p>
+                    <p class="feedback-explanation" id="feedback-explanation"></p>
+                    <button class="btn-primary" id="btn-next-question">次へ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Difficulty Selection Modal -->
+    <div class="modal" id="difficulty-modal">
+        <div class="modal-content">
+            <h2 class="modal-title">難易度を選択</h2>
+            <div class="difficulty-buttons">
+                <button class="btn-difficulty btn-beginner" data-difficulty="beginner">
+                    <span class="difficulty-label">初級</span>
+                    <span class="difficulty-desc">有名な偉人の基本情報</span>
+                </button>
+                <button class="btn-difficulty btn-intermediate" data-difficulty="intermediate">
+                    <span class="difficulty-label">中級</span>
+                    <span class="difficulty-desc">詳細な業績や関連知識</span>
+                </button>
+                <button class="btn-difficulty btn-advanced" data-difficulty="advanced">
+                    <span class="difficulty-label">上級</span>
+                    <span class="difficulty-desc">マニアックな知識</span>
+                </button>
+            </div>
+            <button class="btn-close-modal" id="btn-close-difficulty">キャンセル</button>
+        </div>
+    </div>
+
+    <!-- Results Modal -->
+    <div class="modal" id="results-modal">
+        <div class="modal-content">
+            <h2 class="modal-title">クイズ結果</h2>
+            <div class="results-summary">
+                <div class="result-stat">
+                    <span class="stat-label">正解数</span>
+                    <span class="stat-value" id="result-correct">0</span> / <span id="result-total">10</span>
+                </div>
+                <div class="result-stat">
+                    <span class="stat-label">獲得ポイント</span>
+                    <span class="stat-value" id="result-points">0</span>
+                </div>
+            </div>
+            
+            <!-- Level Up Notification -->
+            <div class="level-up-notification" id="level-up-notification" style="display: none;">
+                <h3>🎉 レベルアップ！</h3>
+                <p>レベル <span id="new-level">2</span> になりました！</p>
+            </div>
+
+            <!-- Badge Notification -->
+            <div class="badge-notification" id="badge-notification" style="display: none;">
+                <h3>🏆 新しいバッジ獲得！</h3>
+                <div id="new-badges-container"></div>
+            </div>
+
+            <!-- Wrong Answers Review -->
+            <div class="wrong-answers-section" id="wrong-answers-section" style="display: none;">
+                <h3>復習</h3>
+                <div id="wrong-answers-list"></div>
+            </div>
+
+            <div class="results-actions">
+                <button class="btn-primary" id="btn-retry-quiz">もう一度</button>
+                <button class="btn-secondary" id="btn-back-home">ホームへ</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Encyclopedia Screen -->
+    <section id="encyclopedia-screen" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <button class="btn-back" id="btn-back-from-encyclopedia">← 戻る</button>
+                <h2>偉人図鑑</h2>
+            </div>
+
+            <!-- Filters -->
+            <div class="filters">
+                <select id="category-filter" class="filter-select">
+                    <option value="all">すべてのカテゴリー</option>
+                    <option value="scientist">科学者</option>
+                    <option value="artist">芸術家</option>
+                    <option value="politician">政治家</option>
+                    <option value="inventor">発明家</option>
+                    <option value="philosopher">思想家</option>
+                    <option value="explorer">探検家</option>
+                </select>
+                <input type="text" id="search-input" class="search-input" placeholder="偉人を検索...">
+            </div>
+
+            <!-- Figures Grid -->
+            <div class="figures-grid" id="figures-grid">
+                <!-- Figure cards will be dynamically inserted -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Figure Detail Modal -->
+    <div class="modal" id="figure-detail-modal">
+        <div class="modal-content modal-large">
+            <button class="btn-close-modal" id="btn-close-figure-detail">×</button>
+            <div class="figure-detail">
+                <img class="figure-portrait-large" id="detail-portrait" src="" alt="">
+                <div class="figure-info">
+                    <h2 id="detail-name"></h2>
+                    <p class="figure-meta">
+                        <span id="detail-dates"></span> | <span id="detail-country"></span>
+                    </p>
+                    <div class="figure-category-badge" id="detail-category"></div>
+                    
+                    <h3>主な業績</h3>
+                    <ul id="detail-achievements"></ul>
+                    
+                    <h3>名言</h3>
+                    <div class="quotes" id="detail-quotes"></div>
+                    
+                    <p class="figure-description" id="detail-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Screen -->
+    <section id="statistics-screen" class="screen">
+        <div class="container">
+            <div class="screen-header">
+                <button class="btn-back" id="btn-back-from-statistics">← 戻る</button>
+                <h2>統計</h2>
+            </div>
+
+            <!-- Stats Dashboard -->
+            <div class="stats-dashboard">
+                <div class="stat-card">
+                    <h3>総合正解率</h3>
+                    <p class="stat-big" id="stat-accuracy">0%</p>
+                </div>
+                <div class="stat-card">
+                    <h3>学習した偉人</h3>
+                    <p class="stat-big" id="stat-figures-learned">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>総問題数</h3>
+                    <p class="stat-big" id="stat-total-questions">0</p>
+                </div>
+            </div>
+
+            <!-- Badges Collection -->
+            <div class="badges-section">
+                <h3>獲得バッジ</h3>
+                <div class="badges-grid" id="badges-grid">
+                    <!-- Badges will be dynamically inserted -->
+                </div>
+            </div>
+
+            <!-- Category Stats -->
+            <div class="category-stats-section">
+                <h3>カテゴリー別習熟度</h3>
+                <div id="category-stats-list"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/gamification.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
